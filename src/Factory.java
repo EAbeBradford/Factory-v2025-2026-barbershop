@@ -1,4 +1,4 @@
-public class Factory {
+public class Factory { //barber shop
 
     //instace variables
     public int yearFounded;
@@ -25,6 +25,17 @@ public class Factory {
 
         //change the value of the yearFounded and isOpen
         //call factoryInfo()
+
+        //type varName = value;
+        //object of type house
+        House h1 = new House();
+        h1.owner = "Mr. Kim";
+        System.out.println("the owner is " +h1.owner);
+        //todo: give all the house instance varibles values
+        h1.address = "1790 cant ave milton mass";
+        h1.isOccupied = true;
+        h1.walls =10;
+        h1.size = 200.21;
 
     }
 
