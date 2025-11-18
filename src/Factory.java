@@ -37,6 +37,23 @@ public class Factory { //barber shop
         h1.walls =10;
         h1.size = 200.21;
 
+
+        House h2 = new House();
+
+        System.out.println(h2.size);
+        h2.size = 40.2;
+        System.out.println(h2.size);
+        h2.printInfo();
+
+        //todo: make another house object called myHouse
+        //call printInfo on myHouse
+        House myHouse = new House();
+        myHouse.printInfo();
+
+
+        House customHouse = new House(200.24, 8, "Ms. Blair");
+        customHouse.printInfo();
+
     }
 
     //todo: make a method called factoryInfo
